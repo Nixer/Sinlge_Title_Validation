@@ -6,13 +6,16 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 public class HtmlUnit {
 	public static void main(String[] args) {
- 
+ 					
 		WebDriver driver = new HtmlUnitDriver();   // Version 1.2 :: HtmlUnit
  
 		String text_case_id = "TC-001.01";
-		String url = "http://www.google.com";
-		String title_expected = "Google";
-		
+		//String url = "http://www.google.com";
+		//String title_expected = "Google";
+		String param[] = args[0].split("\\|");
+		String url = param[0];
+		String title_expected = param[1];
+		 		
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		String title_actual = driver.getTitle();
