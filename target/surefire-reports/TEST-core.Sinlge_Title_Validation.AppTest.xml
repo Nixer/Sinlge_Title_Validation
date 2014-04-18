@@ -4,6 +4,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre7\bin"/>
     <property name="java.vm.version" value="24.51-b03"/>
+    <property name="build.version" value="1.2"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
@@ -26,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8"/>
-    <property name="classworlds.conf" value="C:\sources\Nixer_Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4839759853557393895.tmp"/>
+    <property name="classworlds.conf" value="C:\sources\Nixer_Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8757303385243288021.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
     <property name="java.library.path" value="C:\Program Files\Java\jre7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\_Nick_\SELENIUM\Tools\;c:\Program Files\Java\jdk1.7.0_45\bin\;D:\_Nick_\SELENIUM\;c:\Program Files (x86)\Google\Chrome\Application\;c:\Program Files\Java\jdk1.7.0_51\bin\;C:\Program Files (x86)\Git\cmd\;c:\Maven\bin\;D:\Ruby200-x64\bin;D:\_Nick_\SELENIUM\Tools\;c:\Program Files\Java\jdk1.7.0_45\bin\;D:\_Nick_\SELENIUM\;c:\Program Files (x86)\Google\Chrome\Application\;d:\_Nick_\SELENIUM\Tools\apache-maven-3.1.1\bin\;c:\Program Files\Java\jdk1.7.0_51\bin\;c:\Program Files (x86)\Git\cmd\;c:\Maven\bin\;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -43,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jre7"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B package -Dbuild.version=1.2"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
